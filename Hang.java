@@ -15,13 +15,13 @@ public class Hang {
 
     public void extend() {
         // Extend the hang mechanism
-        hangMotor.setPower(0.5);  // 50% power
+        hangMotor.setPower(1); 
         isExtended = true;
     }
 
     public void retract() {
         // Retract the hang mechanism
-        hangMotor.setPower(-0.5);  // -50% power
+        hangMotor.setPower(-1); 
         isExtended = false;
     }
 
